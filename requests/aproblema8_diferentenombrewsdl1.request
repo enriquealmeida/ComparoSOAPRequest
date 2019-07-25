@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://serviciosmercosur.indira">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ser:ProblemaX_DiferenteNombreWSDL.Execute>
+         <ser:Numerodeclaracionexpo>?</ser:Numerodeclaracionexpo>
+      </ser:ProblemaX_DiferenteNombreWSDL.Execute>
+   </soapenv:Body>
+</soapenv:Envelope> 

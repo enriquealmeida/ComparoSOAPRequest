@@ -1,0 +1,18 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ing="www.servicios.aduana.gub.uy/IngresoAPlayaAD" xmlns:sdt="www.servicios.aduana.gub.uy/SdtIngresoAPlayaAD">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ing:Problema2_InvalidNamespace.Execute>
+         <ing:Ingresoaplaya>
+            <sdt:NumeroDeViaje>?</sdt:NumeroDeViaje>
+            <sdt:Matricula>?</sdt:Matricula>
+            <sdt:Deposito>?</sdt:Deposito>
+            <sdt:Referencia>?</sdt:Referencia>
+            <sdt:Documento>?</sdt:Documento>
+            <sdt:CedulaCamionero>?</sdt:CedulaCamionero>
+            <sdt:CelularCamionero>?</sdt:CelularCamionero>
+            <sdt:OrdinalIn>?</sdt:OrdinalIn>
+            <sdt:Operacion>?</sdt:Operacion>
+         </ing:Ingresoaplaya>
+      </ing:Problema2_InvalidNamespace.Execute>
+   </soapenv:Body>
+</soapenv:Envelope>

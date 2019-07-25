@@ -1,0 +1,6 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:kbn="KBNamespace">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <kbn:Procedure4_WSDL_con_nbsp.Execute/>
+   </soapenv:Body>
+</soapenv:Envelope>

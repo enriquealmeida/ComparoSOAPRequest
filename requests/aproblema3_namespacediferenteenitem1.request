@@ -1,0 +1,6 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsd="www.aduanas.gub.uy/wsdatossolicitudusuario">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <wsd:SolicitudUsuarios.Problema3_NameSpaceDiferenteEnItem.Execute/>
+   </soapenv:Body>
+</soapenv:Envelope>
