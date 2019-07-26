@@ -10,7 +10,6 @@
             <sdt:Documento>?</sdt:Documento>
             <sdt:CedulaCamionero>?</sdt:CedulaCamionero>
             <sdt:CelularCamionero>?</sdt:CelularCamionero>
-            <sdt:OrdinalIn>?</sdt:OrdinalIn>
             <sdt:Operacion>?</sdt:Operacion>
          </ing:Ingresoaplaya>
       </ing:Problema2_InvalidNamespace.Execute>

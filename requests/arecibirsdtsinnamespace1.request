@@ -3,11 +3,10 @@
    <soapenv:Body>
       <kbn:RecibirSDTSinNamespace.Execute>
          <kbn:Eventosdetai>
-            <kbn:codPaisEmi>1</kbn:codPaisEmi>
-            <kbn:codAduEmi>1</kbn:codAduEmi>
-            <kbn:codLugOperEmi>1</kbn:codLugOperEmi>
+            <kbn:codPaisEmi>10</kbn:codPaisEmi>
+            <kbn:codAduEmi>20</kbn:codAduEmi>
+            <kbn:codLugEmi>30</kbn:codLugEmi>
          </kbn:Eventosdetai>
       </kbn:RecibirSDTSinNamespace.Execute>
    </soapenv:Body>
 </soapenv:Envelope>
-

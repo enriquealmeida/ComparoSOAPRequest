@@ -1,11 +1,11 @@
-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:nam="NameSpaceProc" xmlns:kbn="KBNamespace">
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:nam="NameSpaceProc" xmlns:sdt="SDTNameSpace">
    <soapenv:Header/>
    <soapenv:Body>
       <nam:RecibirSDT.Execute>
          <nam:Eventosdetai>
-            <kbn:codPaisEmi>2</kbn:codPaisEmi>
-            <kbn:codAduEmi>2</kbn:codAduEmi>
-            <kbn:codLugOperEmi>2</kbn:codLugOperEmi>
+            <sdt:codPaisEmi>1</sdt:codPaisEmi>
+            <sdt:codAduEmi>2</sdt:codAduEmi>
+            <sdt:codLugEmi>3</sdt:codLugEmi>
          </nam:Eventosdetai>
       </nam:RecibirSDT.Execute>
    </soapenv:Body>
