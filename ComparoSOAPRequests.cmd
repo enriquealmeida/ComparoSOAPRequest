@@ -23,4 +23,4 @@ rem "utiles\fnr.exe" --cl --dir . --fileMask "*.wsdl" --includeSubDirectories   
 rem "utiles\fnr.exe" --cl --dir . --fileMask "*.wsdl" --includeSubDirectories --useRegEx --find "<documen([\n]|.)*\/document>"            --replace ""
 rem "utiles\fnr.exe" --cl --dir . --fileMask "*.wsdl" --includeSubDirectories --useRegEx --find "<documentation([\n]|.)*\/documentation>" --replace ""
 
-"C:\Program Files (x86)\WinMerge\WinMergeU" /r /e /f *.xml;*.txt;*.wsdl /xq   /minimize  %dir1% %dir2%  
+"utiles\WinMergeU" /r /e /f *.xml;*.txt;*.wsdl /xq   /minimize  %dir1% %dir2%  

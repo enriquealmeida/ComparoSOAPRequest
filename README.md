@@ -7,12 +7,6 @@ Genera los WSDL de los servicios
 Genera un Response de salida (xml)
 Transforma el response de salida en un txt para que sea mas facil de comparar. 
 
-Prerequisitos
-=============
-Instalar WinMerge   http://winmerge.org/downloads/
-Instalar curl      https://curl.haxx.se/download.html
-
-Ambos deben estar en path.
 
 Instalacion.
 ============
@@ -36,3 +30,16 @@ localhostgx16
 y va a comparar las diferencias con WinMerge. 
 
 El nombre de los objetos, tiene cierta aproximacion con los problemas planteados en la planilla, pero no tiene una correspondencia absoluta. 
+
+
+
+========================================================================================================================================================
+2019-07-26 (se sacan estos prerequisitos - se instalan en utiles). 
+
+Prerequisitos
+=============
+Instalar WinMerge   http://winmerge.org/downloads/
+Instalar curl      https://curl.haxx.se/download.html
+
+Ambos deben estar en path.
+

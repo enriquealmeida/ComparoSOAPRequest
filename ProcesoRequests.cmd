@@ -45,18 +45,14 @@ rem call :DEBUG
 @echo %endpoint%
 
 rem Request para generar log y ver el http_code de la llamada
-curl -o /dev/null -s  --insecure --user %user%  %endpoint% -w "%%{http_code} - %endpoint%\n" >> %runlogfile%
+utiles\curl -o /dev/null -s  --insecure --user %user%  %endpoint% -w "%%{http_code} - %endpoint%\n" >> %runlogfile%
 rem Request para generar el WSDL
-curl -s --insecure --user %user%  %endpoint%?wsdl >  %wsdlfile%
+utiles\curl -s --insecure --user %user%  %endpoint%?wsdl >  %wsdlfile%
 rem Request para ejecutar el SOAP con parametros
-curl -s --insecure --user %user% --header "Content-Type: text/xml;charset=UTF-8" --header "SOAPAction: %soapaction%" --data @%filename% --output %outputfile% %endpoint% 
+utiles\curl -s --insecure --user %user% --header "Content-Type: text/xml;charset=UTF-8" --header "SOAPAction: %soapaction%" --data @%filename% --output %outputfile% %endpoint% 
 
 exit /b
 
-
-
-call curl %host_url%/%1.%extension% > .\%version%\%1.wsdl
-call curl -s --header "Content-Type: text/xml;charset=UTF-8" --header "SOAPAction: %soapaction%" --data @%filename% --output %outputfile%  %endpoint%  
 
 :DEBUG
 echo :::::::::::::::::::::::::::::::::::::::::::::::
