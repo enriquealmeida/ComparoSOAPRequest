@@ -42,7 +42,7 @@ if not exist %filename% (echo *** ERROR : No existe archivo %filename% && echo "
 
 rem call :DEBUG
 
-@echo %endpoint%
+@echo %endpoint% (Request=%numerorequest%)
 
 rem Request para generar log y ver el http_code de la llamada
 utiles\curl -o /dev/null -s  --insecure --user %user%  %endpoint% -w "%%{http_code} - %endpoint%\n" >> %runlogfile%

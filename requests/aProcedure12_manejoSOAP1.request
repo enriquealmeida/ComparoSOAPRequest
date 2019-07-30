@@ -1,0 +1,16 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:kbn="KBNamespace">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <kbn:Procedure12_manejoSOAP.Execute>
+         <kbn:Entrada>
+            <!--Zero or more repetitions:-->
+            <kbn:Entradas.EntradasItem>
+               <kbn:Fecha>2010-01-01</kbn:Fecha>
+            </kbn:Entradas.EntradasItem>
+			 <kbn:Entradas.EntradasItem>
+               <kbn:Fecha>2010-01-39</kbn:Fecha>
+            </kbn:Entradas.EntradasItem>
+         </kbn:Entrada>
+      </kbn:Procedure12_manejoSOAP.Execute>
+   </soapenv:Body>
+</soapenv:Envelope>
