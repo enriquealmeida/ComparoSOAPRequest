@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:kbn="KBNamespace">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <kbn:Procedure10_redondeo.Execute>
+         <kbn:Entradanumerica>10</kbn:Entradanumerica>
+      </kbn:Procedure10_redondeo.Execute>
+   </soapenv:Body>
+</soapenv:Envelope>

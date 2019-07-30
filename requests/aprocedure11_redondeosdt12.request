@@ -1,0 +1,15 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:kbn="KBNamespace">
+	<soapenv:Header/>
+	<soapenv:Body>
+		<kbn:Procedure11_redondeoSDT.Execute>
+			<kbn:Entradanumeros>
+			<!-- CON COMA EN LUGAR DE PUNTO -->
+				<kbn:Numeros.NumerosItem>
+					<kbn:Numero>-7,7700001</kbn:Numero>
+				</kbn:Numeros.NumerosItem>
+				
+
+			</kbn:Entradanumeros>
+		</kbn:Procedure11_redondeoSDT.Execute>
+	</soapenv:Body>
+</soapenv:Envelope>

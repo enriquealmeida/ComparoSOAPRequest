@@ -2,7 +2,7 @@
    <soapenv:Header/>
    <soapenv:Body>
       <ser:ProblemaX_DiferenteNombreWSDL.Execute>
-         <ser:Numerodeclaracionexpo>?</ser:Numerodeclaracionexpo>
+         <ser:Numerodeclaracionexpo>19</ser:Numerodeclaracionexpo>
       </ser:ProblemaX_DiferenteNombreWSDL.Execute>
    </soapenv:Body>
 </soapenv:Envelope> 
